@@ -65,17 +65,22 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    fill: var(--second-color);
 }
 .mail-link {
     display: flex;
     align-items: center;
     margin-right: 30px;
-    fill: var(--second-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phone-link {
     display: flex;
     align-items: center;
-    fill: var(--second-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-icon {
     width: 16px;
@@ -220,6 +225,12 @@ img {
     line-height: 26px;
     border: none;
     border-radius: 4px;
+    box-shadow: none;
+    color: var(--first-color);
+    background-color: var(--third-background-color);
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons-item:not(:last-child) {
     margin-right: 8px;
@@ -244,6 +255,10 @@ img {
     background-color: var(--fourth-background-color);
     border: 1px solid #EEEEEE;
     margin-top: 30px;
+    box-shadow: none;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .description,
 .alt {
@@ -332,6 +347,9 @@ img {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-title {
     color: var(--fourth-color);
@@ -344,6 +362,9 @@ img {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.714;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link-mail:hover,
 .address-link-mail:focus,
@@ -557,12 +578,21 @@ img {
 }
 .link {
     color:var(--first-color)
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-link {
     color:var(--second-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link {
     color:var(--fourth-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.714;
 }
 .address {
