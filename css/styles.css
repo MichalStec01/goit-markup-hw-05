@@ -154,6 +154,12 @@ img {
     border-radius: 4px;
     padding: 10px 42px;
     margin-top: 30px;
+    background-color: var(--third-background-color);
+    color: var(--first-color);
+    box-shadow: none;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-hero:hover,
 .btn-hero:focus {
@@ -454,6 +460,9 @@ img {
     border-radius: 4px;
     width: 170px;
     height: 92px;
+    transition-property: fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers {
     display: flex;
@@ -537,6 +546,10 @@ img {
     justify-content: center;
     align-items: center;
     fill: #AFB1B8;
+    background-color: var(--fourth-color);
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-socialmedia-link:hover,
 .team-socialmedia-link:focus {
