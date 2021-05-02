@@ -46,7 +46,6 @@ img {
 .section-header {
     background-color: var(--fourth-background-color);
     border-bottom: 1px solid #ECECEC;
-    padding: 25px 0;
 }
 .container-section-header {
     width: 1200px;
@@ -73,8 +72,18 @@ img {
     margin-right: 10px;
 }
 .contact-link {
+    padding-top: 32px;
     margin-right: 30px;
+    padding-bottom: 32px;
     fill: #757575;
+}
+.logo-item {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.link {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 /* ===========Hero================== */
 .section-hero {
