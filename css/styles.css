@@ -121,7 +121,6 @@ img {
     background-color: var(--third-color);
     position: absolute;
     top: 79px;
-    left: 299px;
 }
 .secondary-page::after {
     content: "";
@@ -132,7 +131,6 @@ img {
     background-color: var(--third-color);
     position: absolute;
     top: 79px;
-    left: 399px;
 }
 /* ===========Hero================== */
 .section-hero {
