@@ -61,6 +61,22 @@ img {
     margin-right: 350px;
     justify-content: space-between;
 }
+.mail-phone-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail-link {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    fill: var(--second-color);
+}
+.phone-link {
+    display: flex;
+    align-items: center;
+    fill: var(--second-color);
+}
 .mail-icon {
     width: 16px;
     height: 12px;
@@ -72,10 +88,8 @@ img {
     margin-right: 10px;
 }
 .contact-link {
-    padding-top: 32px;
-    margin-right: 30px;
-    padding-bottom: 32px;
-    fill: #757575;
+    text-align: center;
+    padding-top: 3px;
 }
 .logo-item {
     padding-top: 24px;
@@ -84,6 +98,14 @@ img {
 .link {
     padding-top: 32px;
     padding-bottom: 32px;
+}
+.mail-link:hover,
+.mail-link:focus,
+.phone-link:hover,
+.phone-link:focus {
+    cursor:var(--first-cursor);
+    color:var(--third-color);
+    fill:var(--third-color);
 }
 /* ===========Hero================== */
 .section-hero {
